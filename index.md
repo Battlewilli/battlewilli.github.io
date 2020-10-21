@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### Java Basics pages
 
-I created a page with some basic guidelines on programming with Java. Please see [here](javaBasics.md)
+I created a page with some basic guidelines on programming with Java. Please see [here](javaBasics.md).
