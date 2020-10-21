@@ -1,10 +1,3 @@
----
-layout: post
-title:  "Java Basics"
-date:   2020-10-13 00:04:10 +0200
-categories: jekyll update
----
-
 ## Meine Java-Aufschriebe
 
 ### Basics
@@ -35,8 +28,8 @@ categories: jekyll update
 - Constants:  private static final String INVALID_VALUE_MESSAGE = "Invalid value"; --> keyword "final", name usually in capitals to identify them easier; Values can`t be changed!
 - Bei neuem Projekt in IDEA --> Project structure > JDK 8 as default (as we are using JDK 8 features)
 - switch: wie if-Statement, nur nicht ganz so flexibel. Eine Variabel wird auf verschiedene Werte getestet: 
-`switch(){case 1: ... } break; deafault: ...
-	case "February": case "March": case "April": case "May": (ab JDK 7 kann switch auch Strings);`
+```switch(){case 1: ... } break; deafault: ...
+	case "February": case "March": case "April": case "May": (ab JDK 7 kann switch auch Strings);```
 - `for (init; condition, increment){ -->     for (int i = 2; i < 9; i++)` { --> Prüfung, ob etwas zutrifft, dann iterationsweise Schritte; Teils erst einmal Validitätsprüfung durch if-Beduingung vorangestellt
 - while (condition){ --> whenever you don`t know how often sth. will happen;
 -  do {} while()} --> "Do" wird auf jeden Fall einmal ausgeführt; Perfekt für Programme, die wiederholt werden sollen (wenn "while"-Bedingung am Ende erfüllt ist, wird "do" ausgeführt (z.B. Do you want to play again (y/n)?) 
